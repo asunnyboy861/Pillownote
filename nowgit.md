@@ -9,16 +9,16 @@
 | **Repo URL** | https://github.com/asunnyboy861/Pillownote |
 | **Visibility** | Public |
 | **Primary Language** | Swift |
-| **GitHub Pages** | ⏳ Pending (enabled in PHASE 7 from `/docs` folder) |
+| **GitHub Pages** | ✅ **ENABLED** (from `/docs` folder) |
 
 ## Policy Pages (Deployed from Main Repository /docs)
 
 | Page | URL | Status |
 |------|-----|--------|
-| Landing Page | https://asunnyboy861.github.io/Pillownote/ | ⏳ Pending |
-| Support | https://asunnyboy861.github.io/Pillownote/support.html | ⏳ Pending |
-| Privacy Policy | https://asunnyboy861.github.io/Pillownote/privacy.html | ⏳ Pending |
-| Terms of Use | https://asunnyboy861.github.io/Pillownote/terms.html | ⏳ Pending (subscription app) |
+| Landing Page | https://asunnyboy861.github.io/Pillownote/ | ✅ Active |
+| Support | https://asunnyboy861.github.io/Pillownote/support.html | ✅ Active |
+| Privacy Policy | https://asunnyboy861.github.io/Pillownote/privacy.html | ✅ Active |
+| Terms of Use | https://asunnyboy861.github.io/Pillownote/terms.html | ✅ Active |
 
 ## Repository Structure
 
