@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EF17F4C6037EA9AD1D53F73 /* UsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB3F55B7AD8910EACE866B0 /* UsView.swift */; };
+		10F73384D9D7FFD555CD700F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3491F62D24E1AFC9F0B933 /* Theme.swift */; };
+		1665A120DA92F59B8604600F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B1AB80B09A53AE0F73D16A /* OnboardingView.swift */; };
+		21C95EA3999BE99A17E80154 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5AB01E54CAFFC9B6CB37B7 /* KeychainHelper.swift */; };
+		285281302953E8A51480AA80 /* AIConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B12DD7246AA5D72291D778 /* AIConfigurationView.swift */; };
+		28E163B7735A8369C49AD917 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1DA25FD70D38B7781F75C1 /* Models.swift */; };
+		2E454A5B2B65D6EFDD036EBB /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3CA462F8D39EB6BA61F173 /* TodayView.swift */; };
+		2F1EC709FA2954B9D4B0F810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8604105764A8BBF203045611 /* Assets.xcassets */; };
+		30D5ACBD97464233F36258EC /* RevealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BC3651DAF34E16C23031F4 /* RevealView.swift */; };
+		3F67785658C31C5339D09D2E /* AnniversaryBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53E94D7CB0B010625969A1 /* AnniversaryBookView.swift */; };
+		559306501BEF33485FFD39A6 /* GlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3D458E1FEAF91930C55F20 /* GlowView.swift */; };
+		56083EF5DB0425EF9A8CBD8A /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5C8CBC55F03A06B7FDFB1C /* PaywallView.swift */; };
+		59BC6183E1BCBBE7BB7518F5 /* PillownoteWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6AF520F51FB4031B46995 /* PillownoteWidgetsBundle.swift */; };
+		5B3E4C04D1C20EB9A1864B4E /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459361474458C67FBE27F4FD /* ExportService.swift */; };
+		67A94917F7E8378536332245 /* StaticQuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE96B337CD5F55C22EF6C1 /* StaticQuestionBank.swift */; };
+		6DC80A0B8CBAAEAF1624D869 /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE859E34985783024525C27A /* HapticService.swift */; };
+		712F8FCC27EA237D0BD0A853 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A9533A9587BA993C5126D4 /* WidgetSnapshot.swift */; };
+		753752F7E3ABBE7E15C03624 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A9533A9587BA993C5126D4 /* WidgetSnapshot.swift */; };
+		7D07F4C0D2A5FDBFB5BFBC66 /* PairingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17BA90F8CAE638FB989BCAC /* PairingService.swift */; };
+		7DD145E49AFA74DEEA41C505 /* MemoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8CA10502F34916D1CBAF60 /* MemoryService.swift */; };
+		8B5849E43CE2C73045E091B9 /* AppleIntelligenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D3C5E3310951490D611FE6 /* AppleIntelligenceService.swift */; };
+		8B8F2E467718107484AF7900 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B95EB0F3F40AA9F7F070A3 /* NotificationService.swift */; };
+		935F79F6597F74D2A60389CE /* NoteComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DB28F6230119A5770AFDC /* NoteComposerView.swift */; };
+		9825643E0119D4AF9C00DE5B /* CloudAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441876788AB32F813FD2F072 /* CloudAIService.swift */; };
+		A9D6789E5ACF3F8D2EADF7C9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12952C4FDD96BEC0A46BCB29 /* SettingsView.swift */; };
+		ACFE4370FB51615C17888E24 /* StoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04454F5EC1A2B586D2A80E86 /* StoreService.swift */; };
+		B1C184A9694059AB0298CCCC /* PillownoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832AF2B62E666114A4C30718 /* PillownoteApp.swift */; };
+		BCF67C05B1AF4078251BE723 /* PillownoteWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3C0EF317F938DB89B3D46B2C /* PillownoteWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C29DFC26BF9B13806CE0A519 /* GlowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B9369450A6F91C70E840A /* GlowService.swift */; };
+		D5DC1E68A2D9CADB5F410A9F /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72FC7BF2F3500F54E5A9EDD /* CryptoService.swift */; };
+		D90C9E1D099D0AD81DD78D18 /* CoachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A186BFEE47B3611722CC03 /* CoachView.swift */; };
+		E26A6D73296F4680F3CD14F4 /* ContactSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C85964AEC843ECF8149B7A /* ContactSupportView.swift */; };
+		E6BEF85E5BBD5603D3D9E77D /* EnvelopeOpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C37D0B3E8F22DAD3602152B /* EnvelopeOpenView.swift */; };
+		F166987D1B4487C409EB2628 /* AIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD91063763D5527D91F67E8E /* AIConfiguration.swift */; };
+		F5B5F1D42237EE0D78F0A736 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448BC6AE46EFDAACD62FCB40 /* SpeechService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55AD1F3283AF660911729393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 659259C7800D90C3FB58C7A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0D2E249843E1554A3B1A92;
+			remoteInfo = PillownoteWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7340C7298D2358B13B648AC1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BCF67C05B1AF4078251BE723 /* PillownoteWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04454F5EC1A2B586D2A80E86 /* StoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreService.swift; sourceTree = "<group>"; };
+		06A9533A9587BA993C5126D4 /* WidgetSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshot.swift; sourceTree = "<group>"; };
+		09C85964AEC843ECF8149B7A /* ContactSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSupportView.swift; sourceTree = "<group>"; };
+		0C37D0B3E8F22DAD3602152B /* EnvelopeOpenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvelopeOpenView.swift; sourceTree = "<group>"; };
+		12952C4FDD96BEC0A46BCB29 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1E08DF93712D3D73B88AF1B2 /* PillownoteWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PillownoteWidgets.entitlements; sourceTree = "<group>"; };
+		265B9369450A6F91C70E840A /* GlowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowService.swift; sourceTree = "<group>"; };
+		335C8B788B42C26C67ADFC88 /* Pillownote.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Pillownote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0EF317F938DB89B3D46B2C /* PillownoteWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = PillownoteWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB3F55B7AD8910EACE866B0 /* UsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsView.swift; sourceTree = "<group>"; };
+		43BC3651DAF34E16C23031F4 /* RevealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealView.swift; sourceTree = "<group>"; };
+		441876788AB32F813FD2F072 /* CloudAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAIService.swift; sourceTree = "<group>"; };
+		448BC6AE46EFDAACD62FCB40 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		459361474458C67FBE27F4FD /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		5E3A53B1289FD61035F1B634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5E53E94D7CB0B010625969A1 /* AnniversaryBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniversaryBookView.swift; sourceTree = "<group>"; };
+		5EDE96B337CD5F55C22EF6C1 /* StaticQuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticQuestionBank.swift; sourceTree = "<group>"; };
+		7D3D458E1FEAF91930C55F20 /* GlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowView.swift; sourceTree = "<group>"; };
+		832AF2B62E666114A4C30718 /* PillownoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillownoteApp.swift; sourceTree = "<group>"; };
+		834DB28F6230119A5770AFDC /* NoteComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteComposerView.swift; sourceTree = "<group>"; };
+		85B95EB0F3F40AA9F7F070A3 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		8604105764A8BBF203045611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F3491F62D24E1AFC9F0B933 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		93A186BFEE47B3611722CC03 /* CoachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachView.swift; sourceTree = "<group>"; };
+		94751643103695A237361734 /* Pillownote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pillownote.entitlements; sourceTree = "<group>"; };
+		99B12DD7246AA5D72291D778 /* AIConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIConfigurationView.swift; sourceTree = "<group>"; };
+		A6F6AF520F51FB4031B46995 /* PillownoteWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillownoteWidgetsBundle.swift; sourceTree = "<group>"; };
+		B1B1AB80B09A53AE0F73D16A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C17BA90F8CAE638FB989BCAC /* PairingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingService.swift; sourceTree = "<group>"; };
+		CD91063763D5527D91F67E8E /* AIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIConfiguration.swift; sourceTree = "<group>"; };
+		CE5AB01E54CAFFC9B6CB37B7 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		DE3CA462F8D39EB6BA61F173 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		EC1DA25FD70D38B7781F75C1 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		EE859E34985783024525C27A /* HapticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticService.swift; sourceTree = "<group>"; };
+		EF8CA10502F34916D1CBAF60 /* MemoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryService.swift; sourceTree = "<group>"; };
+		F3D3C5E3310951490D611FE6 /* AppleIntelligenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleIntelligenceService.swift; sourceTree = "<group>"; };
+		F72FC7BF2F3500F54E5A9EDD /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		FD5C8CBC55F03A06B7FDFB1C /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		02AD8EFFBD55CF78764641E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC1DA25FD70D38B7781F75C1 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		038AAC7DD7D40CF1C561123D /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				5E53E94D7CB0B010625969A1 /* AnniversaryBookView.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		44F1574677DE60E466576299 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				335C8B788B42C26C67ADFC88 /* Pillownote.app */,
+				3C0EF317F938DB89B3D46B2C /* PillownoteWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		471901175865C04167CBC083 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				0C37D0B3E8F22DAD3602152B /* EnvelopeOpenView.swift */,
+				834DB28F6230119A5770AFDC /* NoteComposerView.swift */,
+				43BC3651DAF34E16C23031F4 /* RevealView.swift */,
+				DE3CA462F8D39EB6BA61F173 /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		4A622CE3281DB434618C5282 /* Us */ = {
+			isa = PBXGroup;
+			children = (
+				3CB3F55B7AD8910EACE866B0 /* UsView.swift */,
+			);
+			path = Us;
+			sourceTree = "<group>";
+		};
+		6CB266245A75D1647F38554C /* PillownoteWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				5E3A53B1289FD61035F1B634 /* Info.plist */,
+				1E08DF93712D3D73B88AF1B2 /* PillownoteWidgets.entitlements */,
+				A6F6AF520F51FB4031B46995 /* PillownoteWidgetsBundle.swift */,
+			);
+			path = PillownoteWidgets;
+			sourceTree = "<group>";
+		};
+		75F4B2C3C30EE4B329AE23BC /* Coach */ = {
+			isa = PBXGroup;
+			children = (
+				93A186BFEE47B3611722CC03 /* CoachView.swift */,
+			);
+			path = Coach;
+			sourceTree = "<group>";
+		};
+		773686D3B37A06F33FEA0178 /* Pillownote */ = {
+			isa = PBXGroup;
+			children = (
+				8604105764A8BBF203045611 /* Assets.xcassets */,
+				94751643103695A237361734 /* Pillownote.entitlements */,
+				EF0742AED6BE51D0E348C607 /* App */,
+				02AD8EFFBD55CF78764641E2 /* Models */,
+				DACEF4124F63CAA8DB301516 /* Services */,
+				9BD8B76EB2D8361AF41B7EDF /* Theme */,
+				E1123BF22B59D0E020D6295C /* Views */,
+			);
+			path = Pillownote;
+			sourceTree = "<group>";
+		};
+		94327C8F2348A0DD4CF610B8 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B1B1AB80B09A53AE0F73D16A /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		9BD8B76EB2D8361AF41B7EDF /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				8F3491F62D24E1AFC9F0B933 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		9FC094469E5F684472CA0066 = {
+			isa = PBXGroup;
+			children = (
+				773686D3B37A06F33FEA0178 /* Pillownote */,
+				6CB266245A75D1647F38554C /* PillownoteWidgets */,
+				CE81B8CD2895464710F79E65 /* Shared */,
+				44F1574677DE60E466576299 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1884D09B9330A4782E37BFB /* Glow */ = {
+			isa = PBXGroup;
+			children = (
+				7D3D458E1FEAF91930C55F20 /* GlowView.swift */,
+			);
+			path = Glow;
+			sourceTree = "<group>";
+		};
+		C38039E205049B33526C63F3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				99B12DD7246AA5D72291D778 /* AIConfigurationView.swift */,
+				09C85964AEC843ECF8149B7A /* ContactSupportView.swift */,
+				12952C4FDD96BEC0A46BCB29 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CE81B8CD2895464710F79E65 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				06A9533A9587BA993C5126D4 /* WidgetSnapshot.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DACEF4124F63CAA8DB301516 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CD91063763D5527D91F67E8E /* AIConfiguration.swift */,
+				F3D3C5E3310951490D611FE6 /* AppleIntelligenceService.swift */,
+				441876788AB32F813FD2F072 /* CloudAIService.swift */,
+				F72FC7BF2F3500F54E5A9EDD /* CryptoService.swift */,
+				459361474458C67FBE27F4FD /* ExportService.swift */,
+				265B9369450A6F91C70E840A /* GlowService.swift */,
+				EE859E34985783024525C27A /* HapticService.swift */,
+				CE5AB01E54CAFFC9B6CB37B7 /* KeychainHelper.swift */,
+				EF8CA10502F34916D1CBAF60 /* MemoryService.swift */,
+				85B95EB0F3F40AA9F7F070A3 /* NotificationService.swift */,
+				C17BA90F8CAE638FB989BCAC /* PairingService.swift */,
+				448BC6AE46EFDAACD62FCB40 /* SpeechService.swift */,
+				5EDE96B337CD5F55C22EF6C1 /* StaticQuestionBank.swift */,
+				04454F5EC1A2B586D2A80E86 /* StoreService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E1123BF22B59D0E020D6295C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				038AAC7DD7D40CF1C561123D /* Book */,
+				75F4B2C3C30EE4B329AE23BC /* Coach */,
+				C1884D09B9330A4782E37BFB /* Glow */,
+				94327C8F2348A0DD4CF610B8 /* Onboarding */,
+				FE928C4738F8B68BE8543622 /* Paywall */,
+				C38039E205049B33526C63F3 /* Settings */,
+				471901175865C04167CBC083 /* Today */,
+				4A622CE3281DB434618C5282 /* Us */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF0742AED6BE51D0E348C607 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				832AF2B62E666114A4C30718 /* PillownoteApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FE928C4738F8B68BE8543622 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				FD5C8CBC55F03A06B7FDFB1C /* PaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0D2E249843E1554A3B1A92 /* PillownoteWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85AA30473A4D96A42CCA4633 /* Build configuration list for PBXNativeTarget "PillownoteWidgets" */;
+			buildPhases = (
+				B9A32B2E9E766C3E35D9B20A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PillownoteWidgets;
+			packageProductDependencies = (
+			);
+			productName = PillownoteWidgets;
+			productReference = 3C0EF317F938DB89B3D46B2C /* PillownoteWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7A2B5C115527C3FC709D2CCF /* Pillownote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6585A275033E8327843E0296 /* Build configuration list for PBXNativeTarget "Pillownote" */;
+			buildPhases = (
+				28C0CA66CF7FE37C73D9E271 /* Sources */,
+				735B6395B409BE8618C692BA /* Resources */,
+				7340C7298D2358B13B648AC1 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C24E9EE200CBF7C782248FD /* PBXTargetDependency */,
+			);
+			name = Pillownote;
+			packageProductDependencies = (
+			);
+			productName = Pillownote;
+			productReference = 335C8B788B42C26C67ADFC88 /* Pillownote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		659259C7800D90C3FB58C7A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4A0D2E249843E1554A3B1A92 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					7A2B5C115527C3FC709D2CCF = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B1722EA83D67A74F4F4EFCC6 /* Build configuration list for PBXProject "Pillownote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9FC094469E5F684472CA0066;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A2B5C115527C3FC709D2CCF /* Pillownote */,
+				4A0D2E249843E1554A3B1A92 /* PillownoteWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		735B6395B409BE8618C692BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1EC709FA2954B9D4B0F810 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C0CA66CF7FE37C73D9E271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F166987D1B4487C409EB2628 /* AIConfiguration.swift in Sources */,
+				285281302953E8A51480AA80 /* AIConfigurationView.swift in Sources */,
+				3F67785658C31C5339D09D2E /* AnniversaryBookView.swift in Sources */,
+				8B5849E43CE2C73045E091B9 /* AppleIntelligenceService.swift in Sources */,
+				9825643E0119D4AF9C00DE5B /* CloudAIService.swift in Sources */,
+				D90C9E1D099D0AD81DD78D18 /* CoachView.swift in Sources */,
+				E26A6D73296F4680F3CD14F4 /* ContactSupportView.swift in Sources */,
+				D5DC1E68A2D9CADB5F410A9F /* CryptoService.swift in Sources */,
+				E6BEF85E5BBD5603D3D9E77D /* EnvelopeOpenView.swift in Sources */,
+				5B3E4C04D1C20EB9A1864B4E /* ExportService.swift in Sources */,
+				C29DFC26BF9B13806CE0A519 /* GlowService.swift in Sources */,
+				559306501BEF33485FFD39A6 /* GlowView.swift in Sources */,
+				6DC80A0B8CBAAEAF1624D869 /* HapticService.swift in Sources */,
+				21C95EA3999BE99A17E80154 /* KeychainHelper.swift in Sources */,
+				7DD145E49AFA74DEEA41C505 /* MemoryService.swift in Sources */,
+				28E163B7735A8369C49AD917 /* Models.swift in Sources */,
+				935F79F6597F74D2A60389CE /* NoteComposerView.swift in Sources */,
+				8B8F2E467718107484AF7900 /* NotificationService.swift in Sources */,
+				1665A120DA92F59B8604600F /* OnboardingView.swift in Sources */,
+				7D07F4C0D2A5FDBFB5BFBC66 /* PairingService.swift in Sources */,
+				56083EF5DB0425EF9A8CBD8A /* PaywallView.swift in Sources */,
+				B1C184A9694059AB0298CCCC /* PillownoteApp.swift in Sources */,
+				30D5ACBD97464233F36258EC /* RevealView.swift in Sources */,
+				A9D6789E5ACF3F8D2EADF7C9 /* SettingsView.swift in Sources */,
+				F5B5F1D42237EE0D78F0A736 /* SpeechService.swift in Sources */,
+				67A94917F7E8378536332245 /* StaticQuestionBank.swift in Sources */,
+				ACFE4370FB51615C17888E24 /* StoreService.swift in Sources */,
+				10F73384D9D7FFD555CD700F /* Theme.swift in Sources */,
+				2E454A5B2B65D6EFDD036EBB /* TodayView.swift in Sources */,
+				0EF17F4C6037EA9AD1D53F73 /* UsView.swift in Sources */,
+				712F8FCC27EA237D0BD0A853 /* WidgetSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A32B2E9E766C3E35D9B20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BC6183E1BCBBE7BB7518F5 /* PillownoteWidgetsBundle.swift in Sources */,
+				753752F7E3ABBE7E15C03624 /* WidgetSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C24E9EE200CBF7C782248FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0D2E249843E1554A3B1A92 /* PillownoteWidgets */;
+			targetProxy = 55AD1F3283AF660911729393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10E4533ADD00304874520D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PillownoteWidgets/PillownoteWidgets.entitlements;
+				INFOPLIST_FILE = PillownoteWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Pillownote.Widgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		594AB9CEA80EFF11149E2FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pillownote/Pillownote.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pillownote;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pillownote uses the camera to attach photos to your pillow notes.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Pillownote uses the microphone to record voice notes for your partner.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Pillownote lets you attach photos from your library to pillow notes.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Pillownote transcribes your voice notes so they can be read as text.";
+				INFOPLIST_KEY_NSUserNotificationsUsageDescription = "Pillownote sends reminders for daily questions and note arrivals.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Pillownote;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6667B51262E7126501D89CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PillownoteWidgets/PillownoteWidgets.entitlements;
+				INFOPLIST_FILE = PillownoteWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Pillownote.Widgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6942AC0A615CBCA76BEBA50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		D7382C9C73EF13EF452919DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pillownote/Pillownote.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pillownote;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pillownote uses the camera to attach photos to your pillow notes.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Pillownote uses the microphone to record voice notes for your partner.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Pillownote lets you attach photos from your library to pillow notes.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Pillownote transcribes your voice notes so they can be read as text.";
+				INFOPLIST_KEY_NSUserNotificationsUsageDescription = "Pillownote sends reminders for daily questions and note arrivals.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Pillownote;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB6ECF4D73663BECAB06D6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6585A275033E8327843E0296 /* Build configuration list for PBXNativeTarget "Pillownote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594AB9CEA80EFF11149E2FE0 /* Debug */,
+				D7382C9C73EF13EF452919DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		85AA30473A4D96A42CCA4633 /* Build configuration list for PBXNativeTarget "PillownoteWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6667B51262E7126501D89CDA /* Debug */,
+				10E4533ADD00304874520D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1722EA83D67A74F4F4EFCC6 /* Build configuration list for PBXProject "Pillownote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6942AC0A615CBCA76BEBA50F /* Debug */,
+				EB6ECF4D73663BECAB06D6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 659259C7800D90C3FB58C7A3 /* Project object */;
+}

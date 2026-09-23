@@ -1,0 +1,15 @@
+.DS_Store
+.env
+keytext*.md
+COMPETITOR_REPORT.md
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+icon_raw.png
+*.log
+.env
+keytext*.md
+COMPETITOR_REPORT.md
+GLMSecret.txt
+Secrets.plist

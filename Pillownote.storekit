@@ -1,0 +1,115 @@
+{
+  "identifier" : "com.zzoutuo.Pillownote.storekit",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "29.99",
+      "familyShareable" : false,
+      "internalID" : "BYO0001",
+      "localizations" : [
+        {
+          "description" : "All Plus features using your own API key",
+          "displayName" : "Pillownote BYO Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.zzoutuo.pillownote.byo.lifetime",
+      "referenceName" : "Pillownote BYO Lifetime",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "THEME001",
+      "localizations" : [
+        {
+          "description" : "Valentine, holiday and pride envelope skins",
+          "displayName" : "Seasonal Envelope Themes",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.zzoutuo.pillownote.themes.seasons",
+      "referenceName" : "Pillownote Seasonal Themes",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "PLUSGROUP001",
+      "localizations" : [
+
+      ],
+      "name" : "Pillownote Plus",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "5.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "PLUSMONTH001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited notes, coach and glow reports",
+              "displayName" : "Pillownote Plus",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.zzoutuo.pillownote.plus.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Pillownote Plus Monthly",
+          "subscriptionGroupID" : "PLUSGROUP001",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "34.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "PLUSYEAR001",
+          "introductoryOffer" : {
+            "internalID" : "TRIAL001",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "All Plus features with a 7-day free trial",
+              "displayName" : "Pillownote Plus Annual",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.zzoutuo.pillownote.plus.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Pillownote Plus Annual",
+          "subscriptionGroupID" : "PLUSGROUP001",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
