@@ -9,8 +9,9 @@ settings:
     SWIFT_VERSION: "5.9"
     MARKETING_VERSION: "1.0"
     CURRENT_PROJECT_VERSION: "1"
-    DEVELOPMENT_TEAM: ""
+    DEVELOPMENT_TEAM: JP4TN5PTS3
     CODE_SIGN_STYLE: Automatic
+    CODE_SIGN_IDENTITY: "Apple Development"
 targets:
   Pillownote:
     type: application
