@@ -31,20 +31,32 @@ targets:
         com.apple.developer.icloud-services:
           - CloudKit
         aps-environment: development
+    info:
+      path: Pillownote/Info.plist
+      properties:
+        CFBundleDisplayName: Pillownote
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        NSMicrophoneUsageDescription: "Pillownote uses the microphone to record voice notes for your partner."
+        NSSpeechRecognitionUsageDescription: "Pillownote transcribes your voice notes so they can be read as text."
+        NSCameraUsageDescription: "Pillownote uses the camera to attach photos to your pillow notes."
+        NSPhotoLibraryUsageDescription: "Pillownote lets you attach photos from your library to pillow notes."
+        NSUserNotificationsUsageDescription: "Pillownote sends reminders for daily questions and note arrivals."
+        ITSAppUsesNonExemptEncryption: false
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: false
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.zzoutuo.Pillownote
         TARGETED_DEVICE_FAMILY: "1,2"
-        GENERATE_INFOPLIST_FILE: YES
-        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
-        INFOPLIST_KEY_UILaunchScreen_Generation: YES
-        INFOPLIST_KEY_CFBundleDisplayName: Pillownote
-        INFOPLIST_KEY_NSMicrophoneUsageDescription: "Pillownote uses the microphone to record voice notes for your partner."
-        INFOPLIST_KEY_NSSpeechRecognitionUsageDescription: "Pillownote transcribes your voice notes so they can be read as text."
-        INFOPLIST_KEY_NSCameraUsageDescription: "Pillownote uses the camera to attach photos to your pillow notes."
-        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "Pillownote lets you attach photos from your library to pillow notes."
-        INFOPLIST_KEY_NSUserNotificationsUsageDescription: "Pillownote sends reminders for daily questions and note arrivals."
-        INFOPLIST_KEY_UIUserInterfaceStyle: Automatic
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
   PillownoteWidgets:
